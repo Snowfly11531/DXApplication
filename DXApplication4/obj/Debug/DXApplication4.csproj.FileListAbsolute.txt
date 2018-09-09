@@ -23,4 +23,5 @@ D:\软件学习\c# Projects\DXApplication4\DXApplication4\bin\Debug\DXApplicatio
 D:\软件学习\c# Projects\DXApplication4\DXApplication4\bin\Debug\DXApplication4.pdb
 D:\软件学习\c# Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.PopupButtonEditForm.resources
 D:\软件学习\c# Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.IDW.resources
+D:\软件学习\c# Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.Progressing.resources
 D:\软件学习\c# Projects\DXApplication4\DXApplication4\obj\Debug\DXApplication4.csprojResolveAssemblyReference.cache

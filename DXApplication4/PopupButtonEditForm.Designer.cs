@@ -44,7 +44,6 @@
             this.btnRun.Size = new System.Drawing.Size(103, 29);
             this.btnRun.TabIndex = 0;
             this.btnRun.Text = "开始计算";
-            this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
             // 
             // simpleButton2
             // 
@@ -85,8 +84,8 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.SimpleButton btnRun;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         public DevExpress.XtraEditors.ListBoxControl listBoxControl1;
+        public DevExpress.XtraEditors.SimpleButton btnRun;
     }
 }

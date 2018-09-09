@@ -221,11 +221,6 @@ namespace DXApplication4
             }
         }
 
-        public void btnRun_Click(object sender, EventArgs e)
-        {
-
-        }
-
 
         
     }

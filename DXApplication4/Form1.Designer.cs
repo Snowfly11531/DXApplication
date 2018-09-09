@@ -121,7 +121,7 @@
             this.ribbonPage3,
             this.ribbonPage4,
             this.ribbonPage5});
-            this.ribbonControl1.Size = new System.Drawing.Size(1146, 150);
+            this.ribbonControl1.Size = new System.Drawing.Size(1140, 144);
             this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
             // barButtonItem2
@@ -299,7 +299,7 @@
             // 
             // defaultLookAndFeel1
             // 
-            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Office 2016 Colorful";
+            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Caramel";
             // 
             // popupMenu1
             // 
@@ -385,18 +385,18 @@
             this.dockPanel2.Controls.Add(this.dockPanel2_Container);
             this.dockPanel2.Dock = DevExpress.XtraBars.Docking.DockingStyle.Left;
             this.dockPanel2.ID = new System.Guid("f4601fb1-dd30-4819-9129-65b3de06cfa1");
-            this.dockPanel2.Location = new System.Drawing.Point(0, 150);
+            this.dockPanel2.Location = new System.Drawing.Point(0, 144);
             this.dockPanel2.Name = "dockPanel2";
             this.dockPanel2.OriginalSize = new System.Drawing.Size(200, 200);
-            this.dockPanel2.Size = new System.Drawing.Size(200, 522);
+            this.dockPanel2.Size = new System.Drawing.Size(200, 525);
             this.dockPanel2.Text = "dockPanel2";
             // 
             // dockPanel2_Container
             // 
             this.dockPanel2_Container.Controls.Add(this.axTOCControl1);
-            this.dockPanel2_Container.Location = new System.Drawing.Point(4, 39);
+            this.dockPanel2_Container.Location = new System.Drawing.Point(3, 25);
             this.dockPanel2_Container.Name = "dockPanel2_Container";
-            this.dockPanel2_Container.Size = new System.Drawing.Size(192, 479);
+            this.dockPanel2_Container.Size = new System.Drawing.Size(194, 497);
             this.dockPanel2_Container.TabIndex = 0;
             // 
             // axTOCControl1
@@ -405,7 +405,7 @@
             this.axTOCControl1.Location = new System.Drawing.Point(0, 0);
             this.axTOCControl1.Name = "axTOCControl1";
             this.axTOCControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axTOCControl1.OcxState")));
-            this.axTOCControl1.Size = new System.Drawing.Size(192, 479);
+            this.axTOCControl1.Size = new System.Drawing.Size(194, 497);
             this.axTOCControl1.TabIndex = 0;
             this.axTOCControl1.OnMouseDown += new ESRI.ArcGIS.Controls.ITOCControlEvents_Ax_OnMouseDownEventHandler(this.axTOCControl1_OnMouseDown);
             this.axTOCControl1.OnDoubleClick += new ESRI.ArcGIS.Controls.ITOCControlEvents_Ax_OnDoubleClickEventHandler(this.axTOCControl1_OnDoubleClick);
@@ -414,10 +414,10 @@
             // 
             this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraTabControl1.HeaderLocation = DevExpress.XtraTab.TabHeaderLocation.Bottom;
-            this.xtraTabControl1.Location = new System.Drawing.Point(200, 150);
+            this.xtraTabControl1.Location = new System.Drawing.Point(200, 144);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(946, 522);
+            this.xtraTabControl1.Size = new System.Drawing.Size(940, 525);
             this.xtraTabControl1.TabIndex = 0;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -428,7 +428,7 @@
             this.xtraTabPage1.Controls.Add(this.axLicenseControl1);
             this.xtraTabPage1.Controls.Add(this.axMapControl1);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(944, 496);
+            this.xtraTabPage1.Size = new System.Drawing.Size(933, 496);
             this.xtraTabPage1.Text = "xtraTabPage1";
             // 
             // axLicenseControl1
@@ -446,7 +446,7 @@
             this.axMapControl1.Location = new System.Drawing.Point(0, 0);
             this.axMapControl1.Name = "axMapControl1";
             this.axMapControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axMapControl1.OcxState")));
-            this.axMapControl1.Size = new System.Drawing.Size(944, 496);
+            this.axMapControl1.Size = new System.Drawing.Size(933, 496);
             this.axMapControl1.TabIndex = 0;
             this.axMapControl1.OnMouseDown += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMouseDownEventHandler(this.axMapControl1_OnMouseDown);
             this.axMapControl1.OnMouseUp += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMouseUpEventHandler(this.axMapControl1_OnMouseUp);
@@ -472,7 +472,7 @@
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.False;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1146, 672);
+            this.ClientSize = new System.Drawing.Size(1140, 669);
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.dockPanel2);
             this.Controls.Add(this.ribbonControl1);
